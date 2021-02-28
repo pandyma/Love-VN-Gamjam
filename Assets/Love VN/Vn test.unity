@@ -5509,6 +5509,7 @@ GameObject:
   - component: {fileID: 1325397408}
   - component: {fileID: 1325397053}
   - component: {fileID: 1325397051}
+  - component: {fileID: 1325397414}
   - component: {fileID: 1325397413}
   - component: {fileID: 1325397412}
   - component: {fileID: 1325397411}
@@ -5815,6 +5816,7 @@ GameObject:
   - component: {fileID: 1325397709}
   - component: {fileID: 1325397708}
   - component: {fileID: 1325397707}
+  - component: {fileID: 1325397705}
   - component: {fileID: 1325397704}
   - component: {fileID: 1325397749}
   - component: {fileID: 1325397748}
@@ -5841,6 +5843,7 @@ GameObject:
   - component: {fileID: 1325397727}
   - component: {fileID: 1325397726}
   - component: {fileID: 1325397725}
+  - component: {fileID: 1325397724}
   - component: {fileID: 1325397722}
   - component: {fileID: 1325397721}
   - component: {fileID: 1325397720}
@@ -5848,6 +5851,7 @@ GameObject:
   - component: {fileID: 1325397718}
   - component: {fileID: 1325397717}
   - component: {fileID: 1325397716}
+  - component: {fileID: 1325397715}
   - component: {fileID: 1325397706}
   - component: {fileID: 1325397703}
   - component: {fileID: 1325397702}
@@ -5926,6 +5930,7 @@ GameObject:
   - component: {fileID: 1325397942}
   - component: {fileID: 1325397941}
   - component: {fileID: 1325397940}
+  - component: {fileID: 1325397939}
   - component: {fileID: 1325397938}
   - component: {fileID: 1325397937}
   - component: {fileID: 1325397936}
@@ -6176,43 +6181,6 @@ GameObject:
   - component: {fileID: 1325398019}
   - component: {fileID: 1325398018}
   - component: {fileID: 1325397665}
-  - component: {fileID: 1325397414}
-  - component: {fileID: 1325398071}
-  - component: {fileID: 1325398070}
-  - component: {fileID: 1325398069}
-  - component: {fileID: 1325398068}
-  - component: {fileID: 1325398067}
-  - component: {fileID: 1325398066}
-  - component: {fileID: 1325398065}
-  - component: {fileID: 1325398064}
-  - component: {fileID: 1325398063}
-  - component: {fileID: 1325398062}
-  - component: {fileID: 1325398061}
-  - component: {fileID: 1325397939}
-  - component: {fileID: 1325397724}
-  - component: {fileID: 1325397705}
-  - component: {fileID: 1325398077}
-  - component: {fileID: 1325398076}
-  - component: {fileID: 1325398075}
-  - component: {fileID: 1325398074}
-  - component: {fileID: 1325398073}
-  - component: {fileID: 1325398072}
-  - component: {fileID: 1325397715}
-  - component: {fileID: 1325398082}
-  - component: {fileID: 1325398081}
-  - component: {fileID: 1325398080}
-  - component: {fileID: 1325398079}
-  - component: {fileID: 1325398078}
-  - component: {fileID: 1325398092}
-  - component: {fileID: 1325398091}
-  - component: {fileID: 1325398090}
-  - component: {fileID: 1325398089}
-  - component: {fileID: 1325398088}
-  - component: {fileID: 1325398087}
-  - component: {fileID: 1325398086}
-  - component: {fileID: 1325398085}
-  - component: {fileID: 1325398084}
-  - component: {fileID: 1325398083}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6460,7 +6428,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 758.5273
     y: -1182.4575
-    width: 164.28568
+    width: 163.41461
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6522,7 +6490,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1038.8718
     y: -1099.7283
-    width: 219.99992
+    width: 215.85362
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6547,21 +6515,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -608.8228, y: 1286.4448}
+  scrollPos: {x: 234.13795, y: 1298.1498}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 586
-  zoom: 0.7000003
+  blockViewHeight: 496
+  zoom: 0.8200002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1325397044}
-  selectedCommands:
-  - {fileID: 1325397750}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1325397135}
   - {fileID: 1325397134}
@@ -6845,8 +6811,8 @@ MonoBehaviour:
       neutral: I wonder if other people have been getting letters\u2026\r\nMilo:
       It\u2019s possible?\r\nBlank: Thankfully, it seems like I managed to steer
       her off my trail.\r\nThe rest of the time at the art gallery went very smoothly.
-      \r\nI had a really good time spending the evening with Evelyn.\r\nEvelyn hide
-      \"offscreen right\":\n--Love letter writing scene\r\n-- Writing desk background\r\n"
+      \r\nI had a really good time spending the evening with Evelyn.\r\nEvelyn \"offscreen
+      right\":\n--Love letter writing scene\r\n-- Writing desk background\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -6931,7 +6897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 386
   indentLevel: 0
-  storyText: "{i}I can\u2019t believe Evelyn let her assistant be this disorganized...
+  storyText: "{i}I can\u2019t believe Evelyn let her assistant be this dis-organized...
     {/i}\r\n"
   description: 
   character: {fileID: 1115983012}
@@ -7342,7 +7308,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 87.050354
     y: -722.08105
-    width: 82.85713
+    width: 82.92682
     height: 40
   tint: {r: 0.91372555, g: 0.57254905, b: 0.28627452, a: 1}
   useCustomTint: 1
@@ -7482,14 +7448,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 75.62773
     y: -797.09766
-    width: 114.28569
+    width: 113.41462
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 38
   blockName: Titlescreen
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1325397414}
   commandList:
   - {fileID: 1325397405}
   - {fileID: 1325397401}
@@ -8812,7 +8778,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1456.1802
     y: -468.6884
-    width: 195.71423
+    width: 192.68289
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8831,7 +8797,6 @@ MonoBehaviour:
   - {fileID: 1325397451}
   - {fileID: 1325397450}
   - {fileID: 1325397683}
-  - {fileID: 1325398085}
   suppressAllAutoSelections: 0
 --- !u!114 &1325397039
 MonoBehaviour:
@@ -8874,7 +8839,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1454.4246
     y: -524.35974
-    width: 144.28568
+    width: 145.12193
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8891,7 +8856,6 @@ MonoBehaviour:
   - {fileID: 1325397686}
   - {fileID: 1325397685}
   - {fileID: 1325397684}
-  - {fileID: 1325398086}
   suppressAllAutoSelections: 0
 --- !u!114 &1325397041
 MonoBehaviour:
@@ -8909,7 +8873,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1452.9594
     y: -635.8451
-    width: 152.8571
+    width: 152.439
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8936,7 +8900,6 @@ MonoBehaviour:
   - {fileID: 1325397667}
   - {fileID: 1325397666}
   - {fileID: 1325397456}
-  - {fileID: 1325398088}
   suppressAllAutoSelections: 0
 --- !u!114 &1325397042
 MonoBehaviour:
@@ -8954,7 +8917,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1449.7328
     y: -694.0146
-    width: 169.99995
+    width: 168.29266
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8975,7 +8938,6 @@ MonoBehaviour:
   - {fileID: 1325397690}
   - {fileID: 1325397714}
   - {fileID: 1325397713}
-  - {fileID: 1325398089}
   suppressAllAutoSelections: 0
 --- !u!114 &1325397043
 MonoBehaviour:
@@ -8991,9 +8953,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1453.5762
+    x: 1452.3567
     y: -752.8434
-    width: 159.99995
+    width: 157.31705
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9014,7 +8976,6 @@ MonoBehaviour:
   - {fileID: 1325397741}
   - {fileID: 1325397740}
   - {fileID: 1325397739}
-  - {fileID: 1325398090}
   suppressAllAutoSelections: 0
 --- !u!114 &1325397044
 MonoBehaviour:
@@ -9032,7 +8993,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1458.2301
     y: -356.21603
-    width: 178.57138
+    width: 176.82924
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9059,7 +9020,6 @@ MonoBehaviour:
   - {fileID: 1325397755}
   - {fileID: 1325397751}
   - {fileID: 1325397750}
-  - {fileID: 1325398083}
   suppressAllAutoSelections: 0
 --- !u!114 &1325397045
 MonoBehaviour:
@@ -9077,7 +9037,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1455.2258
     y: -412.19434
-    width: 185.71423
+    width: 184.14632
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9103,7 +9063,9 @@ MonoBehaviour:
   - {fileID: 1325397726}
   - {fileID: 1325397725}
   - {fileID: 1325397720}
+  - {fileID: 1325397724}
   - {fileID: 1325397722}
+  - {fileID: 1325397705}
   - {fileID: 1325397721}
   - {fileID: 1325397719}
   - {fileID: 1325397718}
@@ -9120,7 +9082,6 @@ MonoBehaviour:
   - {fileID: 1325397691}
   - {fileID: 1325397602}
   - {fileID: 1325397443}
-  - {fileID: 1325398084}
   suppressAllAutoSelections: 0
 --- !u!114 &1325397046
 MonoBehaviour:
@@ -9360,14 +9321,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1093.8015
     y: -422.62344
-    width: 138.5714
+    width: 136.58536
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 163
   blockName: Chris Final Date
   description: Chooses whether Chris likes you or not
-  eventHandler: {fileID: 1325397414}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1325397598}
   - {fileID: 1325397792}
@@ -9540,7 +9501,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1455.2738
     y: -807.58496
-    width: 225.71422
+    width: 224.39021
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9555,12 +9516,8 @@ MonoBehaviour:
   - {fileID: 1325397316}
   - {fileID: 1325397315}
   - {fileID: 1325397457}
-  - {fileID: 1325398080}
-  - {fileID: 1325398079}
   - {fileID: 1325398024}
-  - {fileID: 1325398078}
   - {fileID: 1325397681}
-  - {fileID: 1325398091}
   suppressAllAutoSelections: 0
 --- !u!114 &1325397056
 MonoBehaviour:
@@ -9577,8 +9534,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1452.6273
-    y: -863.9609
-    width: 232.85707
+    y: -862.7414
+    width: 231.70728
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9602,7 +9559,6 @@ MonoBehaviour:
   - {fileID: 1325397052}
   - {fileID: 1325397053}
   - {fileID: 1325397682}
-  - {fileID: 1325398092}
   suppressAllAutoSelections: 0
 --- !u!114 &1325397057
 MonoBehaviour:
@@ -10493,7 +10449,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1223.3759
     y: -504.70496
-    width: 159.99995
+    width: 156.09753
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -10527,7 +10483,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1227.094
     y: -672.0871
-    width: 137.14282
+    width: 134.14633
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12098,7 +12054,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 114.093666
     y: -613.3446
-    width: 127.14282
+    width: 128.04877
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12135,7 +12091,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1004.9419
     y: -611.0395
-    width: 175.71423
+    width: 175.60974
     height: 40
   tint: {r: 1, g: 0.5518868, b: 0.8864268, a: 1}
   useCustomTint: 1
@@ -12312,7 +12268,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 812.3237
     y: -644.769
-    width: 115.71426
+    width: 113.41462
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12472,7 +12428,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 554.7779
     y: -574.0881
-    width: 115.71426
+    width: 113.41462
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12505,6 +12461,7 @@ MonoBehaviour:
   - {fileID: 1325397942}
   - {fileID: 1325397941}
   - {fileID: 1325397940}
+  - {fileID: 1325397939}
   - {fileID: 1325397938}
   - {fileID: 1325397937}
   - {fileID: 1325397936}
@@ -12631,7 +12588,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 459.67645
     y: -687.2063
-    width: 114.28569
+    width: 112.195114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13510,7 +13467,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 838.25
     y: -737
-    width: 131.42853
+    width: 131.7073
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -13542,7 +13499,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1229.5872
     y: -828.46826
-    width: 148.57138
+    width: 147.56096
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -13781,7 +13738,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 919.34076
     y: -866.9545
-    width: 137.14282
+    width: 136.58536
     height: 40
   tint: {r: 0, g: 0.3962264, b: 0.023042288, a: 1}
   useCustomTint: 1
@@ -13793,7 +13750,6 @@ MonoBehaviour:
   - {fileID: 1325397111}
   - {fileID: 1325397614}
   - {fileID: 1325397658}
-  - {fileID: 1325398082}
   - {fileID: 1325397299}
   - {fileID: 1325397297}
   - {fileID: 1325397298}
@@ -13812,7 +13768,6 @@ MonoBehaviour:
   - {fileID: 1325397283}
   - {fileID: 1325397282}
   - {fileID: 1325397281}
-  - {fileID: 1325398081}
   suppressAllAutoSelections: 0
 --- !u!114 &1325397113
 MonoBehaviour:
@@ -13982,7 +13937,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 747.1137
     y: -867.09094
-    width: 135.71425
+    width: 135.36584
     height: 40
   tint: {r: 0, g: 0.37647063, b: 0.023529414, a: 1}
   useCustomTint: 1
@@ -14828,7 +14783,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 844.5
     y: -487.5
-    width: 121.42854
+    width: 120.73169
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -14955,7 +14910,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 274.61765
     y: -562.0722
-    width: 112.85712
+    width: 110.9756
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15184,7 +15139,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 932.7232
     y: -368.08
-    width: 127.14282
+    width: 125.60974
     height: 40
   tint: {r: 0.95294124, g: 0.96470594, b: 0.62352943, a: 1}
   useCustomTint: 1
@@ -15414,7 +15369,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 772.31805
     y: -380.77277
-    width: 125.71426
+    width: 124.39023
     height: 40
   tint: {r: 0.9898713, g: 1, b: 0.6462264, a: 1}
   useCustomTint: 1
@@ -18089,7 +18044,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 330.78357
     y: -1091.3628
-    width: 162.85709
+    width: 162.1951
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18369,7 +18324,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 655.3718
     y: -1038.0518
-    width: 158.57138
+    width: 157.31705
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18749,7 +18704,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 747.3718
     y: -948.05176
-    width: 128.5714
+    width: 126.829254
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19084,7 +19039,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 599.3718
     y: -949.05176
-    width: 134.28568
+    width: 131.7073
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19295,7 +19250,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 623.7248
     y: -1101.0518
-    width: 218.57137
+    width: 214.63411
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19409,9 +19364,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1304.7982
-    y: -955.64923
-    width: 145.71425
+    x: 1271.8718
+    y: -949.55176
+    width: 145.12193
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19693,7 +19648,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 976.8718
     y: -1033.5518
-    width: 159.99995
+    width: 158.53656
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19835,9 +19790,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1153.1401
+    x: 1123.8718
     y: -952.55176
-    width: 139.99997
+    width: 137.80487
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19871,7 +19826,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 979.8718
     y: -950.55176
-    width: 141.42853
+    width: 140.24388
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19901,7 +19856,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 899.3718
     y: -951.05176
-    width: 77.142845
+    width: 76.82926
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20782,14 +20737,14 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Evelyn hide \"offscreen right\":\nBlank: I wait around Evelyn\u2019s
-      assistants desk for Evelyn to get out of her meeting.\r\nIt seemed really important
-      so I hope I got the order right\u2026\r\nIt doesn\u2019t take too long before
-      Evelyn emerges.\r\nBlank: She looks tired, but happy.\r\nEvelyn happy Middle
-      clear: Milo! Thank you so much!\r\nThe meeting went amazing and you brought
-      everything I needed!\r\nEvelyn blushing: I feel like I can really count on
-      you\u2026\r\nReally I can\u2019t say thank you enough.\r\nYou know\u2026 I
-      can\u2019t help but feel like you were the ones behind the letters.\r\n"
+    stringVal: "Blank: I wait around Evelyn\u2019s assistants desk for Evelyn to
+      get out of her meeting.\r\nIt seemed really important so I hope I got the order
+      right\u2026\r\nIt doesn\u2019t take too long before Evelyn emerges.\r\nBlank:
+      She looks tired, but happy.\r\nEvelyn happy: Milo! Thank you so much!\r\nThe
+      meeting went amazing and you brought everything I needed!\r\nEvelyn blushing:
+      I feel like I can really count on you\u2026\r\nReally I can\u2019t say thank
+      you enough.\r\nYou know\u2026 I can\u2019t help but feel like you were the
+      ones behind the letters.\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -20848,8 +20803,8 @@ MonoBehaviour:
     stringVal: "Blank: I grab the files, take them out of the folders and place them
       in order. \r\nI then head off to the meeting room.\r\nWhen I make it to the
       door of the meeting room, I steel myself and politely knock.\r\nEvelyn answers
-      the door\r\nEvelyn happy Middle clear: Thank you so much!\r\nJust wait around
-      a bit and I will meet with you after this is done.\r\n"
+      the door\r\nEvelyn happy: Thank you so much!\r\nJust wait around a bit and
+      I will meet with you after this is done.\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -20937,14 +20892,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 402
   indentLevel: 0
-  storyText: "Milo: I\u2019m just glad I could help!\nEvelyn hide \"offscreen right\":\nBlank:
-    I wait around Evelyn\u2019s assistants desk for Evelyn to get out of her meeting.\r\nIt
-    seemed really important so I hope I got the order right\u2026\r\nIt doesn\u2019t
-    take too long before Evelyn emerges.\r\nBlank: She looks worn out and a bit frustrated.
-    \r\nEvelyn annoyed Middle clear: Well that couldn\u2019t have gone any worse!\r\nThe
-    files you gave me were totally wrong!\r\nThe vendors totally laughed at my face.\r\nI\u2019m
-    sorry, but I don\u2019t think our whole mentorship is working out.\r\nI\u2019m
-    going to have to ask you to leave.\r\n\n"
+  storyText: "Milo: I\u2019m just glad I could help!\r\nBlank: I wait around Evelyn\u2019s
+    assistants desk for Evelyn to get out of her meeting.\r\nIt seemed really important
+    so I hope I got the order right\u2026\r\nIt doesn\u2019t take too long before
+    Evelyn emerges.\r\nBlank: She looks worn out and a bit frustrated. \r\nEvelyn
+    annoyed: Well that couldn\u2019t have gone any worse!\r\nThe files you gave me
+    were totally wrong!\r\nThe vendors totally laughed at my face.\r\nI\u2019m sorry,
+    but I don\u2019t think our whole mentorship is working out.\r\nI\u2019m going
+    to have to ask you to leave.\r\n\n"
   description: 
   character: {fileID: 1115983012}
   portrait: {fileID: 21300000, guid: 467a2f6fe5a49aa4ca22af7f2c6cc8df, type: 3}
@@ -21003,8 +20958,8 @@ MonoBehaviour:
     stringVal: "Blank: I grab the files, take them out of the folders and place them
       in order. \r\nI then head off to the meeting room.\r\nWhen I make it to the
       door of the meeting room, I steel myself and politely knock.\r\nEvelyn answers
-      the door\r\nEvelyn happy Middle clear: Thank you so much!\r\nJust wait around
-      a bit and I will meet with you after this is done.\r\n"
+      the door\r\nEvelyn happy: Thank you so much!\r\nJust wait around a bit and
+      I will meet with you after this is done.\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -21484,7 +21439,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1774.4739
     y: -885.02124
-    width: 198.57137
+    width: 196.34143
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22094,7 +22049,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 755.76117
     y: -66.14696
-    width: 154.28568
+    width: 152.439
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22297,7 +22252,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1176.5967
     y: -58.837467
-    width: 209.99994
+    width: 204.87802
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22547,7 +22502,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1011.3007
     y: -125.90771
-    width: 149.99997
+    width: 147.56096
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22664,7 +22619,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1105.2091
     y: -267.6156
-    width: 172.85709
+    width: 169.51218
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22716,7 +22671,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 940.6185
     y: -272.66104
-    width: 164.28568
+    width: 160.97559
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22770,7 +22725,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 327.35706
     y: 17.08346
-    width: 152.8571
+    width: 151.21948
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22973,7 +22928,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 582.44434
     y: -2.7297401
-    width: 208.57137
+    width: 203.65851
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23103,7 +23058,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 609.11847
     y: -169.88823
-    width: 148.57138
+    width: 146.34145
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23159,7 +23114,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 761.3458
     y: -274.20654
-    width: 157.14282
+    width: 154.87802
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23363,7 +23318,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 534.9367
     y: -268.3883
-    width: 162.85709
+    width: 159.75607
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23951,7 +23906,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1754.5781
     y: -369.3449
-    width: 234.28564
+    width: 231.70728
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24433,7 +24388,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1761.2909
     y: -420.10583
-    width: 225.71422
+    width: 223.1707
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24499,7 +24454,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1449.9935
     y: -580.6461
-    width: 188.57137
+    width: 185.36583
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24516,7 +24471,6 @@ MonoBehaviour:
   - {fileID: 1325397709}
   - {fileID: 1325397708}
   - {fileID: 1325397707}
-  - {fileID: 1325398087}
   suppressAllAutoSelections: 0
 --- !u!114 &1325397392
 MonoBehaviour:
@@ -25289,7 +25243,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1778.1702
     y: -833.5785
-    width: 204.28564
+    width: 202.439
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25613,7 +25567,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1325397414
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -25623,7 +25577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1325397050}
+  parentBlock: {fileID: 1325397011}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
 --- !u!114 &1325397415
@@ -28664,21 +28618,21 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Chris happy Left: This here little lady's name is Felony. She knows
-      what she did. \r\nFelony Felony Right: Moo\r\nBlank: This cow seems\u2026 somehow
+    stringVal: "Chris happy left: This here little lady's name is Felony. She knows
+      what she did. \r\nFelony right: Moo\r\nBlank: This cow seems\u2026 somehow
       smug, is that a thing?? Are cows smug??\r\nFelony hide \"offscreen right\":\nChris
-      neutral: This is Sigmund, she's a real good judge of character\nSigmund Sigmund
-      right: Moooooo\r\nBlank: Sigmund squints at me and I feel awash in sin\u2026
-      and also somehow\u2026 misunderstood?? \r\nSigmund hide \"offscreen right\":\nChris
-      neutral: And this is Sparkles! She's a real mother hen. \r\nSparkles Sparkles
-      Right: Moo!\nBlank: I take a step back, Sparkles has muscles on her muscles
-      on her muscles! She looks as if she could yeet me into the sun!!\r\nSparkles
-      hide \"offscreen right\":\nChris happy: This pretty girl\u2019s name is Bandit,
-      by night she goes by the canola crook of the west \r\nBandit Bandit Right:
-      Moo...\nMilo: {i}Something about Bandit makes me feel\u2026. Uneasy? {/i}\r\nBlank:
-      I make sure to pat my pocket, checking to see if I still have my keys and wallet.\r\nBandit
+      neutral: This is Sigmund, she's a real good judge of characterSigmund right:
+      Moooooo\r\nBlank: Sigmund squints at me and I feel awash in sin\u2026 and also
+      somehow\u2026 misunderstood?? \r\nSigmund hide \"offscreen right\":\nChris
+      neutral: And this is Sparkles! She's a real mother hen. \r\nSparkles right:
+      Moo!\nBlank: I take a step back, Sparkles has muscles on her muscles on her
+      muscles! She looks as if she could yeet me into the sun!!\r\nSparkles hide
+      \"offscreen right\":\nChris happy: This pretty girl\u2019s name is Bandit,
+      by night she goes by the canola crook of the west \r\nBandit right: Moo...\nMilo:
+      {i}Something about Bandit makes me feel\u2026. Uneasy? {/i}\r\nBlank: I make
+      sure to pat my pocket, checking to see if I still have my keys and wallet.\r\nBandit
       hide \"offscreen right\":\nChris neutral: Caroline is real fond of those soda
-      pops the kids are so into nowadays.\r\nCaroline Caroline Right: Moo! Moo! Moo!\n\n"
+      pops the kids are so into nowadays.\r\nCaroline right: Moo! Moo! Moo!\n\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -28794,12 +28748,12 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Blank: With the gate open I see\u2026 Cows! And lots of them! An
       entire field full of cows!!\r\nChris whistles lowly as the two of you approach
-      the mass of gentle mooing giants together.\r\nChris happy Middle clear: These
-      girls are like my family. They\u2019ve been with me\u2026 since they were all
-      swaddled babes, I\u2019ve\u2026Well\u2026 I\u2019ve never brought someone home
-      to meet them before.\r\nBlank: He laughs warmly\r\nChris happy: Well, now that
-      you\u2019re here, I might as well introduce you to my girls.\r\nBlank: Chris
-      winked at me roguishly and I felt my heart flutter in my chest. "
+      the mass of gentle mooing giants together.\r\nChris happy: These girls are
+      like my family. They\u2019ve been with me\u2026 since they were all swaddled
+      babes, I\u2019ve\u2026Well\u2026 I\u2019ve never brought someone home to meet
+      them before.\r\nBlank: He laughs warmly\r\nChris happy: Well, now that you\u2019re
+      here, I might as well introduce you to my girls.\r\nBlank: Chris winked at
+      me roguishly and I felt my heart flutter in my chest. "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -29233,11 +29187,11 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Chris happy Middle clear: well,\r\nBlank: Chris is gasping to catch
-      his breath\r\nChris Left: The old Russell here...\nRussell neutral Right: Neigh!\nBlank:
-      He pats Russell\u2019s heaving and sweat strewn flank.\r\nChris: Was just so
-      excited to see you, we decided to make it a competition to see who got to ya
-      first!\r\nBut Hey! I\u2019m so glad you could make it!\r\n"
+    stringVal: "Chris happy: well,\r\nBlank: Chris is gasping to catch his breath\r\nChris
+      happy left: The old Russell here...\nRussell right: Neigh!\nBlank: He pats
+      Russell\u2019s heaving and sweat strewn flank.\r\nChris: Was just so excited
+      to see you, we decided to make it a competition to see who got to ya first!\r\nBut
+      Hey! I\u2019m so glad you could make it!\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -29415,8 +29369,7 @@ MonoBehaviour:
     stringVal: "Blank: I felt a warm rush at the intimacy of the close contact and
       secretly promised myself to never EVER reveal Chris\u2019s secret.\r\nThen,
       all of a sudden, Chris pulls back and and looks at me, brows creased in a serious
-      expression.\nCoca hide \"offscreen right\":\nChris neutral Middle: So, who
-      is who?\nChris hide \"offscreen right\":"
+      expression.\r\nChris neutral: So, who is who?\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -29474,16 +29427,15 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Caroline hide \"offscreen right\":\nChris Neutral: This little darlin\u2019s
       name is Vanilla, cause she's a sweet treat that can\u2019t be beat.\nVanilla
-      Vanilla Right: Mooooo\nBlank: Looking into Vanilla\u2019s eyes, all you can
-      see is sweetness and pure intent, you would trust this cow over Bandit any
-      day!\r\nVanilla hide \"offscreen right\":\nChris happy: And finally...\r\nThis
-      here is Coca cause she\u2019s as nice as her namesake on a cold winter\u2019s
-      night \r\nCoca Coca Right: Moooooooo\nBlank: Coca butts her head into Chris\u2019s
-      palm and seems to snuggle right in. I can tell she loves Chris an awful lot.\nChris
-      leans close enough for me to feel the tickle of his breath against my ear and
-      whispers...\nChris blushing: Coca\u2019s the first cow I ever got, and just
-      between us\u2026 she\u2019s my favorite, don\u2019t tell nobody.\r\nBlank:
-      I whisper back to Chris"
+      right: Mooooo\nBlank: Looking into Vanilla\u2019s eyes, all you can see is
+      sweetness and pure intent, you would trust this cow over Bandit any day!\r\nVanilla
+      hide \"offscreen right\":\nChris happy: And finally...\r\nThis here is Coca
+      cause she\u2019s as nice as her namesake on a cold winter\u2019s night \r\nCoca:
+      Moooooooo\nBlank: Coca butts her head into Chris\u2019s palm and seems to snuggle
+      right in. I can tell she loves Chris an awful lot.\nChris leans close enough
+      for me to feel the tickle of his breath against my ear and whispers...\nChris
+      blushing: Coca\u2019s the first cow I ever got, and just between us\u2026 she\u2019s
+      my favorite, don\u2019t tell nobody.\r\nBlank: I whisper back to Chris"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -31121,7 +31073,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1300.6248
     y: -262.3182
-    width: 202.85709
+    width: 199.99997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -31171,10 +31123,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 722
-  indentLevel: 2
+  indentLevel: 1
   storyText: What is her name?
   description: 
-  character: {fileID: 1021940633}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -32674,7 +32626,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1260.8203
     y: -404.02557
-    width: 111.42854
+    width: 110.9756
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -32685,52 +32637,32 @@ MonoBehaviour:
   commandList:
   - {fileID: 1325397578}
   - {fileID: 1325397557}
-  - {fileID: 1325397590}
   - {fileID: 1325397584}
-  - {fileID: 1325398071}
-  - {fileID: 1325398070}
+  - {fileID: 1325397590}
   - {fileID: 1325397583}
   - {fileID: 1325397576}
   - {fileID: 1325397577}
   - {fileID: 1325397589}
-  - {fileID: 1325398075}
-  - {fileID: 1325398067}
-  - {fileID: 1325398069}
   - {fileID: 1325397575}
   - {fileID: 1325397574}
   - {fileID: 1325397573}
   - {fileID: 1325397587}
-  - {fileID: 1325398077}
-  - {fileID: 1325398066}
-  - {fileID: 1325398068}
   - {fileID: 1325397571}
   - {fileID: 1325397570}
   - {fileID: 1325397572}
   - {fileID: 1325397588}
-  - {fileID: 1325398065}
-  - {fileID: 1325398074}
-  - {fileID: 1325398061}
   - {fileID: 1325397569}
   - {fileID: 1325397567}
   - {fileID: 1325397568}
   - {fileID: 1325397585}
-  - {fileID: 1325398073}
-  - {fileID: 1325398064}
-  - {fileID: 1325397939}
   - {fileID: 1325397565}
   - {fileID: 1325397566}
   - {fileID: 1325397564}
   - {fileID: 1325397586}
-  - {fileID: 1325398072}
-  - {fileID: 1325398063}
-  - {fileID: 1325397724}
   - {fileID: 1325397562}
   - {fileID: 1325397561}
   - {fileID: 1325397563}
   - {fileID: 1325397579}
-  - {fileID: 1325398076}
-  - {fileID: 1325398062}
-  - {fileID: 1325397705}
   - {fileID: 1325397559}
   - {fileID: 1325397560}
   - {fileID: 1325397558}
@@ -34076,7 +34008,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 533434581}
   _visible:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   affectChildren: 1
   visibleOLD: 0
 --- !u!114 &1325397659
@@ -35250,36 +35182,24 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1325397705
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325396973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1294
-  indentLevel: 2
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'Bandit hide "offscreen right":
-
-      Felony Felony Middle clear:
-      Moooo!'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  itemId: 900
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!114 &1325397706
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -35296,19 +35216,24 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Chris happy: Oh Milo!!
+    stringVal: 'Milo happy: Oh Chris!!
 
-      Blank: We embrace passionately, and
-      I kiss away the tears of joy that are streaming down his face.
+      Chris happy: Oh Milo!!
 
-      He hoists
-      me up onto Russell in my new ranchin boots and everything in my life slides
-      into place.
+      Blank:
+      We embrace passionately, and I kiss away the tears of joy that are streaming
+      down his face.
 
-      Chris and I ride off into the sunset, sending my resignation
-      letter to my boss in an expedited, custom envelope, rich person mail!
+      He hoists me up onto Russell in my new ranchin boots
+      and everything in my life slides into place.
 
-      Chris
+      Chris and I ride off into
+      the sunset, sending my resignation letter to my boss in an expedited, custom
+      envelope, rich person mail!
+
+      Chris hide "offscreen left":
+
+      Russell
       hide "offscreen left":
 
 '
@@ -35530,31 +35455,21 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1325397715
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325396973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1301
+  itemId: 943
   indentLevel: 0
-  storyText: Oh Chris!!
-  description: 
-  character: {fileID: 1115983012}
-  portrait: {fileID: 21300000, guid: 467a2f6fe5a49aa4ca22af7f2c6cc8df, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: bd3a32d8533c6aa49b4a4b2d797fcede, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &1325397716
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -35573,8 +35488,9 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Blank: He slips one boot onto my foot, and\u2026 it was a perfect
       fit!!\r\nMilo: Oh Chris!! How did you know??\r\nChris blushing: Oh\u2026 well\u2026.\r\nBlank:
-      He flushed, pulling down his hat over his face \r\nChris: I remembered your
-      size\u2026 from\u2026 the first time I gave you a boost up onto Russell.\n"
+      He flushed, pulling down his hat over his face \r\nChris left: I remembered
+      your size\u2026 from\u2026 the first time I gave you a boost up onto Russell.\nRussell
+      right:\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -35806,36 +35722,24 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1325397724
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325396973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1293
-  indentLevel: 2
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'Sigmund hide "offscreen right":
-
-      Bandit Bandit Middle clear:
-      Mooooooooo'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  itemId: 934
+  indentLevel: 0
+  duration: 3
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!114 &1325397725
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -35916,17 +35820,17 @@ MonoBehaviour:
     stringVal: "Chris neutral: With how all that sounds\u2026 you might be due for
       a bit of a carrier change.\r\nMilo: Where would I even go? What would I do?\r\nChris
       neutral: I might have to answer that with\u2026 a bit of a story, so get comfy
-      partner. \nOnce upon a time, there was a man who stood on the very top of the
+      partner. Once upon a time, there was a man who stood on the very top of the
       world, you might even call him, a CEO bajilionare\u2026 I\u2026 I mean he had
-      everything\u2026 and I mean EVERYTHING. \nGold plated toilet seats\u2026 a
-      marble picket fence\u2026 everything he could have ever asked for or imagined.
-      \nBut\u2026.\nHe was all alone\u2026. \nHe felt like he had nobody.\r\nSo\u2026
-      I\u2026 I mean *he* had to get away from it all\u2026 \nI built this place,
-      found Russell when he was just a colt in a box on the side of the road.\nSo,
-      I took him home with me, found these sweet girls from shelters all around the
-      country\u2026 and built this place For US to be a real family together.\r\nI\u2019ve
-      never\u2026. I\u2019ve never been happier, I\u2019ve never been so\u2026 fulfilled,
-      they complete me, you know?\r\nChris happy: I went from business suits to assless
+      everything\u2026 and I mean EVERYTHING. Gold plated toilet seats\u2026 a marble
+      picket fence\u2026 everything he could have ever asked for or imagined. But\u2026.
+      He was all alone\u2026. He felt like he had nobody.\r\nSo\u2026 I\u2026 I mean
+      *he* had to get away from it all\u2026 so\u2026 I built this place, found Russell
+      when he was just a colt in a box on the side of the road.\nChris: So, I took
+      him home with me, found these sweet girls from shelters all around the country\u2026
+      and built this place For US to be a real family together.\r\nI\u2019ve never\u2026.
+      I\u2019ve never been happier, I\u2019ve never been so\u2026 fulfilled, they
+      complete me, you know?\r\nChris happy: I went from business suits to assless
       chaps and it really did help me, I needed a change of pace\u2026 and I think
       you do too!\r\n"
   clearPrevious:
@@ -36227,11 +36131,11 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Felony hide \"offscreen right\":\nChris blushing Middle clear: Since
-      you\u2026 since you remembered em all so good, You can\u2026\r\nBlank: Chris
-      flushes and tucks one stray lock of hair behind his ear\r\nChris blushing:
-      you can pet them too\u2026 if you want...\r\nBlank: I lean close to Coca, tangling
-      my fingers in her soft fur as chews gently and lovingly on my hair. \r\n"
+    stringVal: "Chris blushing: Since you\u2026 since you remembered em all so good,
+      You can\u2026\r\nBlank: Chris flushes and tucks one stray lock of hair behind
+      his ear\r\nChris blushing: you can pet them too\u2026 if you want...\r\nBlank:
+      I lean close to Coca, tangling my fingers in her soft fur as chews gently and
+      lovingly on my hair. \r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -36960,10 +36864,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Felony hide \"offscreen right\":\nChris suprised Middle clear: \u2026.oh...\r\nBlank:
-      Chris\u2019s face falls into something between agony and betrayal and my heart
-      sinks in my chest.\r\nChris disappointed: I\u2026 I thought there was something
-      between us. I guess not.\r\n"
+    stringVal: "Chris suprised: \u2026.oh...\r\nBlank: Chris\u2019s face falls into
+      something between agony and betrayal and my heart sinks in my chest.\r\nChris
+      disappointed: I\u2026 I thought there was something between us. I guess not.\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -39873,7 +39776,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1402360885}
   _visible:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   affectChildren: 1
   visibleOLD: 0
 --- !u!114 &1325397911
@@ -40438,36 +40341,24 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1325397939
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325396973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1292
-  indentLevel: 2
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'Vanilla hide "offscreen right":
-
-      Sigmund Sigmund Middle Clear:
-      Moo...'
-  clearPrevious:
+  itemId: 1024
+  indentLevel: 0
+  spriteRenderer: {fileID: 1402360885}
+  _visible:
     booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
+  affectChildren: 1
+  visibleOLD: 0
 --- !u!114 &1325397940
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -42911,734 +42802,6 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
---- !u!114 &1325398061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1291
-  indentLevel: 2
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'Caroline hide "offscreen right":
-
-      Vanilla Vanilla Middle Clear:
-      Moo! Moo! Moo!'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &1325398062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1290
-  indentLevel: 2
-  soundClip: {fileID: 8300000, guid: 7da5d68086cec9c42bd2183692204ddf, type: 3}
-  volume: 1
-  waitUntilFinished: 0
---- !u!114 &1325398063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1289
-  indentLevel: 2
-  soundClip: {fileID: 8300000, guid: 7da5d68086cec9c42bd2183692204ddf, type: 3}
-  volume: 1
-  waitUntilFinished: 0
---- !u!114 &1325398064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1288
-  indentLevel: 2
-  soundClip: {fileID: 8300000, guid: 7da5d68086cec9c42bd2183692204ddf, type: 3}
-  volume: 1
-  waitUntilFinished: 0
---- !u!114 &1325398065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1287
-  indentLevel: 2
-  soundClip: {fileID: 8300000, guid: 7da5d68086cec9c42bd2183692204ddf, type: 3}
-  volume: 1
-  waitUntilFinished: 0
---- !u!114 &1325398066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1286
-  indentLevel: 2
-  soundClip: {fileID: 8300000, guid: 7da5d68086cec9c42bd2183692204ddf, type: 3}
-  volume: 1
-  waitUntilFinished: 0
---- !u!114 &1325398067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1285
-  indentLevel: 2
-  soundClip: {fileID: 8300000, guid: 7da5d68086cec9c42bd2183692204ddf, type: 3}
-  volume: 1
-  waitUntilFinished: 0
---- !u!114 &1325398068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1284
-  indentLevel: 2
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'Coca hide "offscreen right":
-
-      Caroline Caroline Middle Clear:
-      Mooooo'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &1325398069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1283
-  indentLevel: 2
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'Sparkles hide "offscreen right":
-
-      Coca Coca Middle Clear: Moo!'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &1325398070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1282
-  indentLevel: 2
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'Sparkles Sparkles Middle Clear: Moooo'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &1325398071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1281
-  indentLevel: 2
-  soundClip: {fileID: 8300000, guid: 7da5d68086cec9c42bd2183692204ddf, type: 3}
-  volume: 1
-  waitUntilFinished: 0
---- !u!114 &1325398072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1300
-  indentLevel: 2
-  storyText: And who might this darling be?
-  description: 
-  character: {fileID: 1021940633}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1325398073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1299
-  indentLevel: 2
-  storyText: And her?
-  description: 
-  character: {fileID: 1021940633}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1325398074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1298
-  indentLevel: 2
-  storyText: What about this lovely dear?
-  description: 
-  character: {fileID: 1021940633}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1325398075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1297
-  indentLevel: 2
-  storyText: How about this little lady right here?
-  description: 
-  character: {fileID: 1021940633}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1325398076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1296
-  indentLevel: 2
-  storyText: Last but not least! Who's this sweetie?
-  description: 
-  character: {fileID: 1021940633}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1325398077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1295
-  indentLevel: 2
-  storyText: Alright, and this sweetheart?
-  description: 
-  character: {fileID: 1021940633}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1325398078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1306
-  indentLevel: 0
-  spriteRenderer: {fileID: 985137214}
-  _visible:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  affectChildren: 1
-  visibleOLD: 0
---- !u!114 &1325398079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1305
-  indentLevel: 0
-  storyText: Not only did I lose all of Evelyn's trust, I also ended up getting fired
-    from being an angel...
-  description: 
-  character: {fileID: 1022673832}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1325398080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1304
-  indentLevel: 0
-  spriteRenderer: {fileID: 985137214}
-  _visible:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  affectChildren: 1
-  visibleOLD: 0
---- !u!114 &1325398081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1303
-  indentLevel: 0
-  text: I don't know
-  description: 
-  targetBlock: {fileID: 1325397264}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &1325398082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1302
-  indentLevel: 0
-  spriteRenderer: {fileID: 135534727}
-  _visible:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  affectChildren: 1
-  visibleOLD: 0
---- !u!114 &1325398083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1316
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1325397011}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &1325398084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1315
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1325397011}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &1325398085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1314
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1325397011}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &1325398086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1313
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1325397011}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &1325398087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1312
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1325397011}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &1325398088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1311
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1325397011}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &1325398089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1310
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1325397011}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &1325398090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1309
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1325397011}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &1325398091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1308
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1325397011}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &1325398092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325396973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1307
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1325397011}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!1 &1334546009
 GameObject:
   m_ObjectHideFlags: 0
