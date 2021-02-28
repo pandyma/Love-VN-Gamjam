@@ -2988,8 +2988,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 888feb4a32e3b564fb7e6f9b28cc8e10, type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: 2e33a3f531b6adc4f9d8a99c83e2ba2d, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 201bd18a0d308a248a4e9c456785e125, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: 476a98d6ea2f33447bb50d1e3c4ec4e4, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -3035,8 +3035,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c207de86481ff7d48a2fba2fcc374723, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 939390c4df54e3f45a4c94f66b08d513, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6569,7 +6569,6 @@ GameObject:
   - component: {fileID: 1325397883}
   - component: {fileID: 1325397882}
   - component: {fileID: 1325397881}
-  - component: {fileID: 1325397880}
   - component: {fileID: 1325397879}
   - component: {fileID: 1325397878}
   - component: {fileID: 1325397877}
@@ -6760,10 +6759,8 @@ GameObject:
   - component: {fileID: 1325398019}
   - component: {fileID: 1325398018}
   - component: {fileID: 1325397665}
-  - component: {fileID: 1325398075}
   - component: {fileID: 1325398074}
   - component: {fileID: 1325398073}
-  - component: {fileID: 1325398072}
   - component: {fileID: 1325398071}
   - component: {fileID: 1325398070}
   - component: {fileID: 1325398069}
@@ -6862,6 +6859,12 @@ GameObject:
   - component: {fileID: 1325398148}
   - component: {fileID: 1325398147}
   - component: {fileID: 1325398057}
+  - component: {fileID: 1325398158}
+  - component: {fileID: 1325398075}
+  - component: {fileID: 1325398072}
+  - component: {fileID: 1325397880}
+  - component: {fileID: 1325398160}
+  - component: {fileID: 1325398159}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -7109,7 +7112,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 758.5273
     y: -1182.4575
-    width: 162.0879
+    width: 169.14893
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7171,7 +7174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1038.8718
     y: -1099.7283
-    width: 215.93407
+    width: 226.59575
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7196,11 +7199,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -526.8723, y: 1021.1895}
+  scrollPos: {x: 42.019268, y: 1570.1141}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 429
-  zoom: 0.91
+  zoom: 0.94
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -7208,9 +7211,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1325397129}
+  - {fileID: 1325398146}
   selectedCommands:
-  - {fileID: 1325398057}
+  - {fileID: 1325398140}
   variables:
   - {fileID: 1325397135}
   - {fileID: 1325397134}
@@ -7645,7 +7648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 384
   indentLevel: 0
-  storyText: Th-thanks
+  storyText: Th-thanks.
   description: 
   character: {fileID: 1115983012}
   portrait: {fileID: 21300000, guid: 124d776523d2e0e4586b62a331607ff4, type: 3}
@@ -7702,7 +7705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 382
   indentLevel: 0
-  storyText: Uhm, Evelyn called me to help out. Does anyone know where her assistants
+  storyText: Uhm, Evelyn called me to help out. Does anyone know where her assistant's
     desk is?
   description: 
   character: {fileID: 1115983012}
@@ -7730,7 +7733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 381
   indentLevel: 0
-  storyText: "{i}Yup\u2026 definitely reminding me of working back at cupid HQ {/i}"
+  storyText: "{i}Yup\u2026 definitely reminding me of working back at cupid HQ. {/i}"
   description: 
   character: {fileID: 1115983012}
   portrait: {fileID: 21300000, guid: cc38dabe27ffffc4d9b9a6c1f1646429, type: 3}
@@ -7855,10 +7858,10 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Milo: {i} I would feel bad if I turned her down now! {/i}\nPhone:
       {i}{color=#FF0099}You can count on me!{/color}{/i}\r\nPhone: {i}{color=#FF0099}I\u2019ll
-      be there in 5 mins{/color}{/i}\r\nBlank: I grab my keys and jacket and run
-      out the door of my apartment.\r\nIt\u2019s really lucky that Evelyn\u2019s
-      work is so close to where I am staying.\r\nWhen I get to the office, it\u2019s
-      in absolute chaos.\r\n-- Screen shakes\r\n"
+      be there in 5 mins{/color}{/i}\r\nBlank: I grab my keys and jacket before running
+      out.\r\nThank goodness today is a slow day at thepost office.\nIt\u2019s also 
+      really lucky that Evelyn\u2019s work is so close to where I am working.\r\nWhen
+      I get to the office, it\u2019s in absolute chaos.\r\n-- Screen shakes\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7914,7 +7917,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 374
   indentLevel: 0
-  storyText: "{i}I sort mail all day at this job, it can\u2019t be that different
+  storyText: "{i}I sort mail all day at this job, it can\u2019t be that different.
     {/i}"
   description: 
   character: {fileID: 1115983012}
@@ -7991,7 +7994,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 87.050354
     y: -722.08105
-    width: 81.86813
+    width: 84.04256
     height: 40
   tint: {r: 0.91372555, g: 0.57254905, b: 0.28627452, a: 1}
   useCustomTint: 1
@@ -8131,7 +8134,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 76.69156
     y: -797.09766
-    width: 111.53846
+    width: 117.02128
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8141,6 +8144,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1325397414}
   commandList:
   - {fileID: 1325398110}
+  - {fileID: 1325397406}
   - {fileID: 1325397405}
   - {fileID: 1325397401}
   - {fileID: 1325397008}
@@ -8172,7 +8176,8 @@ MonoBehaviour:
   - {fileID: 1325397407}
   - {fileID: 1325397262}
   - {fileID: 1325397030}
-  - {fileID: 1325397406}
+  - {fileID: 1325398159}
+  - {fileID: 1325398160}
   - {fileID: 1325397429}
   - {fileID: 1325397400}
   suppressAllAutoSelections: 0
@@ -8195,7 +8200,7 @@ MonoBehaviour:
     stringVal: "blank: But what humanity doesn\u2019t know, is that for every spectacular
       romance, there is a little bit of {i} heavenly {/i} interference.\r\n--Same
       Crayon CG but now an angel is above the two people with arms wide\r\nThat\u2019s
-      where I come in, I\u2019m what you would call a Cupid. A special angel type
+      where I come in. I\u2019m what you would call a Cupid. A special angel type
       that specializes in love and romance.\r\nIf you need sparks to fly between
       two people or a broken heart to be mended, I\u2019m your guy!\r\n\u2026\r\n\u2026\r\nOr
       at least I was\u2026\r\nHonestly work hasn\u2019t been going so great.\r\n--Same
@@ -8491,7 +8496,7 @@ MonoBehaviour:
       Chris jumped off the horse just as we had arrived at the post office door.
       He unloaded the bike and placed it at the side of the building. Finally, he
       helped me get off the horse in a truly gentlemanly fashion.\r\nChris neutral:
-      Alright, I will pick you up at 4:30, this Tuesday.\nDon\u2019t make me wait
+      Alright, I will pick you up at 4pm, this Tuesday.\nDon\u2019t make me wait
       up you hear?\r\nChris hide \"offscreen left\":\nRussell hide \"offscreen left\":\nBlank:
       Before I could even object he was off on his way.\r\n"
   clearPrevious:
@@ -8530,7 +8535,7 @@ MonoBehaviour:
       do, it\u2019s my first day on the job and I already managed to cause damage
       to company property\u2026{/i}\r\n{i} It\u2019s really no wonder that the cupid
       agency wants to let me go!{/i}\r\n{i} I\u2019m completely useless. {/i}\r\nUnknown:
-      Woah-hey partner, looks like you need a little help.\r\n"
+      Whoa-hey partner, looks like you need a little help.\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9462,7 +9467,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1456.1802
     y: -468.6884
-    width: 192.85713
+    width: 203.19148
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9525,7 +9530,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1454.4246
     y: -524.35974
-    width: 140.1099
+    width: 150
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9559,9 +9564,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1452.9594
+    x: 1451.8955
     y: -636.90894
-    width: 147.80219
+    width: 157.44681
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9607,7 +9612,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1449.7328
     y: -691.8869
-    width: 165.38461
+    width: 175.53192
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9647,7 +9652,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1452.3567
     y: -753.9072
-    width: 157.6923
+    width: 164.89362
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9664,9 +9669,9 @@ MonoBehaviour:
   - {fileID: 1325397745}
   - {fileID: 1325397744}
   - {fileID: 1325397743}
-  - {fileID: 1325397742}
   - {fileID: 1325397741}
   - {fileID: 1325397740}
+  - {fileID: 1325397742}
   - {fileID: 1325397739}
   - {fileID: 1325398118}
   - {fileID: 1325398128}
@@ -9687,7 +9692,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1458.2301
     y: -358.34372
-    width: 175.27472
+    width: 184.04256
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9732,8 +9737,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1455.2258
-    y: -413.41385
-    width: 182.96703
+    y: -414.4777
+    width: 191.48936
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10017,7 +10022,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1091.3625
     y: -412.86734
-    width: 137.91208
+    width: 142.55319
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -10082,8 +10087,6 @@ MonoBehaviour:
   - {fileID: 1325397526}
   - {fileID: 1325397524}
   - {fileID: 1325397525}
-  - {fileID: 1325398072}
-  - {fileID: 1325398075}
   - {fileID: 1325398074}
   - {fileID: 1325398073}
   - {fileID: 1325398070}
@@ -10212,8 +10215,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1455.2738
-    y: -807.58496
-    width: 219.23076
+    y: -808.6488
+    width: 232.97873
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10226,6 +10229,7 @@ MonoBehaviour:
   - {fileID: 1325397317}
   - {fileID: 1325397318}
   - {fileID: 1325397316}
+  - {fileID: 1325398158}
   - {fileID: 1325397315}
   - {fileID: 1325398024}
   - {fileID: 1325397457}
@@ -10253,7 +10257,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1452.6273
     y: -862.7414
-    width: 226.92307
+    width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10271,8 +10275,11 @@ MonoBehaviour:
   - {fileID: 1325397309}
   - {fileID: 1325397409}
   - {fileID: 1325397054}
-  - {fileID: 1325398025}
+  - {fileID: 1325398075}
   - {fileID: 1325397408}
+  - {fileID: 1325398072}
+  - {fileID: 1325398025}
+  - {fileID: 1325397880}
   - {fileID: 1325397051}
   - {fileID: 1325397052}
   - {fileID: 1325397053}
@@ -11169,7 +11176,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1223.3759
     y: -504.70496
-    width: 156.59341
+    width: 162.76596
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -11203,7 +11210,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1227.094
     y: -672.0871
-    width: 134.61539
+    width: 139.3617
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12774,7 +12781,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 114.093666
     y: -613.3446
-    width: 122.52747
+    width: 129.78723
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12811,7 +12818,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1004.9419
     y: -611.0395
-    width: 170.87912
+    width: 180.85106
     height: 40
   tint: {r: 1, g: 0.5518868, b: 0.8864268, a: 1}
   useCustomTint: 1
@@ -12847,7 +12854,6 @@ MonoBehaviour:
   - {fileID: 1325397884}
   - {fileID: 1325397883}
   - {fileID: 1325397882}
-  - {fileID: 1325397880}
   - {fileID: 1325397879}
   - {fileID: 1325397878}
   - {fileID: 1325397072}
@@ -12988,7 +12994,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 813.4226
     y: -644.769
-    width: 113.73627
+    width: 117.02128
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13150,7 +13156,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 554.7779
     y: -574.0881
-    width: 113.73627
+    width: 117.02128
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13311,7 +13317,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 459.67645
     y: -687.2063
-    width: 112.63736
+    width: 115.95744
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14192,7 +14198,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 838.25
     y: -737
-    width: 128.02197
+    width: 135.10638
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -14224,7 +14230,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1229.5872
     y: -828.46826
-    width: 145.6044
+    width: 153.1915
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -14463,7 +14469,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 919.34076
     y: -869.2729
-    width: 134.61539
+    width: 141.48936
     height: 40
   tint: {r: 0, g: 0.3962264, b: 0.023042288, a: 1}
   useCustomTint: 1
@@ -14668,7 +14674,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 747.1137
     y: -867.09094
-    width: 133.51648
+    width: 140.42554
     height: 40
   tint: {r: 0, g: 0.37647063, b: 0.023529414, a: 1}
   useCustomTint: 1
@@ -15518,7 +15524,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 844.5
     y: -487.5
-    width: 120.329666
+    width: 124.46809
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -15645,7 +15651,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 274.61765
     y: -562.0722
-    width: 111.53846
+    width: 114.893616
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15876,7 +15882,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 936.0199
     y: -366.98108
-    width: 126.92307
+    width: 130.85107
     height: 40
   tint: {r: 0.95294124, g: 0.96470594, b: 0.62352943, a: 1}
   useCustomTint: 1
@@ -16105,8 +16111,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 772.31805
-    y: -383.05612
-    width: 125.82417
+    y: -384.11996
+    width: 129.78723
     height: 40
   tint: {r: 0.9898713, g: 1, b: 0.6462264, a: 1}
   useCustomTint: 1
@@ -16359,8 +16365,8 @@ MonoBehaviour:
       you would really be helping me out since I am new in town and don\u2019t really
       know much.\r\nBlank: Evelyn looks down for a moment, I fear for a moment that
       she will outright reject the proposal.\r\nEvelyn neutral: Okay. I\u2019m free
-      next tuesday at 4:30.\r\nBlank: It took some effort to hide my surprise.\r\nMilo:
-      Great! Tuesday at 4:30 sounds perfect.\r\nBlank: I quickly finish up receiving
+      next Tuesday at 4pm.\r\nBlank: It took some effort to hide my surprise.\r\nMilo:
+      Great! Tuesday at 4pm sounds perfect.\r\nBlank: I quickly finish up receiving
       the rest of Evelyn\u2019s packages. When she begins to leave towards the door
       I call out to her.\r\nMilo: See you next Tuesday!\r\n-- This is the point where
       I could imagine we see first Evelyn\u2019s smiling face\r\nEvelyn smugsmile:
@@ -16727,8 +16733,8 @@ MonoBehaviour:
     stringVal: "Blank: I rush to the door where a woman is holding a mountain of
       parcels in her arms.\r\nUnknown: You know, I was worried that you had passed
       out or something behind the counter. \r\nBlank: I take some of the parcels
-      from the woman to help ease the load. \r\nEvelyn neutral: Thank goodness you
-      weren't though, I don\u2019t know what I would have done.\r\n"
+      from the woman to help ease the load. \r\nEvelyn neutral Middle clear: Thank
+      goodness you weren't though, I don\u2019t know what I would have done.\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -17603,7 +17609,7 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Evelyn del Rosario...\nSuccessful business women\u2026 independent\u2026\r\nRuns
-      a fitspo instagram\u2026\r\n.\n..\n...\nOh no\u2026.\n"
+      a fitspo Instagram\u2026\r\n.\n..\n...\nOh no\u2026.\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -17664,7 +17670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 217
   indentLevel: 0
-  storyText: "{i}Well I might as well know how bad the assignment really is {/i}\r"
+  storyText: "{i}Well I might as well know how bad the assignment really is. {/i}\r"
   description: 
   character: {fileID: 1115983012}
   portrait: {fileID: 21300000, guid: 87ca678ab981172478f90db99386f025, type: 3}
@@ -17924,9 +17930,9 @@ MonoBehaviour:
       a horse everywhere through a small town, you would be so wrong. \r\nIt took
       me the better part of the morning to track down Chris.\r\nHe didn\u2019t seem
       too disappointed when I told him that I had to reschedule our meeting, but
-      told me the only day he was free next week was wednesday.\r\nI am sure that
-      I can make that work.\r\nNow to meet Evelyn at the coffee shop.\r\nShe said
-      to meet her at 4\uFF1A30.\r\nNice! It looks like I'm a few minutes early.\r\nI
+      told me the only day he was free next week would be Wednesday.\r\nI am sure
+      that I can make that work.\r\nNow to meet Evelyn at the coffee shop.\r\nShe
+      said to meet her at 4pm.\r\nNice! It looks like I'm a few minutes early.\r\nI
       arrive at the coffee shop and it is a small but stylish cafe. \r\n-- Background
       of the interior of a coffee shop\r\nThe white interior with industrial accents
       definitely gives the place a very expensive vibe.\r\n"
@@ -17990,7 +17996,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "-- Day 1\r\n--I would imagine that a simple CG would come up with
       just the words in all caps TUESDAY at this point \r\nBlank: Before I knew it,
-      a week had gone by and it was tuesday.\r\n"
+      a week had gone by and it was Tuesday.\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -18245,8 +18251,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 243
   indentLevel: 0
-  storyText: "{i}Woah she wasn\u2019t kidding when she said she was really particular
-    about her coffee {/i}\r\n"
+  storyText: "{i}Whoashe wasn\u2019t kidding when she said she was really particular
+    about her coffee! {/i}\r\n"
   description: 
   character: {fileID: 1115983012}
   portrait: {fileID: 21300000, guid: 8597f11504a03b34c8d764d4e849e05e, type: 3}
@@ -18489,12 +18495,12 @@ MonoBehaviour:
       some documents she has in her hands.\r\nHer laptop is also open on the table.
       I assume that she is working a little extra off the clock.\r\nWhen I approach
       she glances up at me.\r\nEvelyn neutral Middle clear: You\u2019re late.\r\n--
-      CG ends\r\nBlank: I glance down at my phone to double check the time. 4:26,
-      definitely still before the agreed upon meeting time.\r\nMilo: Uh, it\u2019s
-      still before 4:30.\r\nEvelyn smug: I thought we were meeting so that I could
-      mentor you on time management? \r\nFirst thing you should note, is that if
-      you are only five minutes early, then you are already late.\r\nTry fifteen
-      minutes next time.\r\n"
+      CG ends\r\nBlank: I glance down at my phone to double check the time.I definitely
+      still have a few minutes before the agreed upon meeting time.\r\nMilo: Uh,
+      it\u2019s still before 4pm.\r\nEvelyn smug: I thought we were meeting so that
+      I could mentor you on time management? \r\nFirst thing you should note, is
+      that if you are only five minutes early, then you are already late.\r\nTry
+      fifteen minutes next time.\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -18522,7 +18528,7 @@ MonoBehaviour:
   itemId: 234
   indentLevel: 0
   storyText: "{i}At least I still managed to be a bit early. It\u2019s just five
-    to four o'clock now. {/i}\r\n"
+    to 4pm now. {/i}\r\n"
   description: 
   character: {fileID: 1115983012}
   portrait: {fileID: 21300000, guid: 87ca678ab981172478f90db99386f025, type: 3}
@@ -18786,7 +18792,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 330.78357
     y: -1091.3628
-    width: 160.98901
+    width: 168.08511
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18949,7 +18955,7 @@ MonoBehaviour:
       and time management. \r\nI make sure to keep it light\u2026 I don\u2019t want
       to give a stalker vibe to this letter.\r\nAfter signing it off with an anonymous
       handle, I feel like something is still missing.\r\nI want to include some chocolates
-      with the letter since it is february.\r\n"
+      with the letter since it is February.\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -19008,9 +19014,9 @@ MonoBehaviour:
     stringVal: "Blank: The rest of the coffee meeting went well. I feel like I learned
       a lot about Evelyn and maybe got a bit closer to her. \r\nI definitely learned
       some things that I can use to help Chris and Evelyn get closer too!\r\nBefore
-      I left, Evelyn asked if I was available for something next week on wednesday.\r\nI
-      said I would let her know.\nEvelyn hide:\n--Love letter writing scene\r\n--
-      I would like a background that is a writing desk\r\n\n"
+      I left, Evelyn asked if I was available for something next week.\r\nI said
+      I would let her know.\nEvelyn hide:\n--Love letter writing scene\r\n-- I would
+      like a background that is a writing desk\r\n\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -19066,7 +19072,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 655.3718
     y: -1038.0518
-    width: 155.4945
+    width: 163.82979
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19180,7 +19186,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Blank: The barista offers a strained smile and nods before leaving
       to take the order of the next customer.\r\nWhen I bring the drink back to Evelyn,
-      she looks at it for a moment and the nods. \r\nI can\u2019t tell if that\u2019s
+      she looks at it for a moment and then nods. \r\nI can\u2019t tell if that\u2019s
       a good sign or a bad one. \r\nShe takes a sip and pauses for a moment\u2026\r\nEvelyn
       neutral: Hmm\u2026 something about this cup is off, but it still tastes pretty
       good.\n"
@@ -19446,7 +19452,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 747.3718
     y: -948.05176
-    width: 125.82417
+    width: 129.78723
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19507,7 +19513,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Blank: The barista offers a strained smile and nods before leaving
       to take the order of the next customer.\r\nEvelyn neutral:\nBlank: When I bring
-      the drink back to Evelyn, she looks at it for a moment and the nods. \r\nI
+      the drink back to Evelyn, she looks at it for a moment and then nods. \r\nI
       can\u2019t tell if that\u2019s a good sign or a bad one. \r\nShe takes a sip
       and pauses for a moment\u2026\r\nEvelyn shocked: I can\u2019t believe it! You
       got the order perfectly right.\r\nEvelyn happy: I\u2019m really impressed.
@@ -19781,7 +19787,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 599.3718
     y: -949.05176
-    width: 132.41757
+    width: 136.17021
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19992,7 +19998,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 623.7248
     y: -1101.0518
-    width: 214.83516
+    width: 225.53192
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20108,7 +20114,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1271.8718
     y: -949.55176
-    width: 142.30768
+    width: 148.93617
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20361,7 +20367,7 @@ MonoBehaviour:
   itemId: 335
   indentLevel: 0
   storyText: "I think that the balls are people\u2026 and they are stacked into a
-    mountain like shape to represent the inherent hierarchy in society.\r\n"
+    mountain-like shape to represent the inherent hierarchy in society.\r\n"
   description: 
   character: {fileID: 1115983012}
   portrait: {fileID: 21300000, guid: 87ca678ab981172478f90db99386f025, type: 3}
@@ -20390,7 +20396,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 976.8718
     y: -1033.5518
-    width: 156.59341
+    width: 164.89362
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20534,7 +20540,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1123.8718
     y: -952.55176
-    width: 137.91208
+    width: 143.61702
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20568,7 +20574,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 979.8718
     y: -950.55176
-    width: 137.91208
+    width: 145.74469
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20598,7 +20604,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 899.3718
     y: -951.05176
-    width: 76.37363
+    width: 78.723404
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21313,7 +21319,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Blank: My phone is almost immediately sent into notification fueled
+    stringVal: "Blank: My phone is almost immediately sent into notification-fueled
       buzzing frenzy. \r\nPhone: {i}{color=green}Milo{/color}{/i}\r\n{i}{color=green}Thank
       god{/color}{/i}\r\n{i}{color=green}Things have been crazy{/color}{/i}\r\n{i}{color=green}Are
       you free today{/color}{/i}\r\n{i}{color=green}Like right now{/color}{/i}\r\n{i}{color=green}I
@@ -21423,7 +21429,7 @@ MonoBehaviour:
     stringVal: "Evelyn smug: Don\u2019t even try to lie to me about it!\r\nI know!\r\nEvelyn
       blushing: And I want to thank you for those too\u2026\r\nWhy don\u2019t you\u2026
       come with me to my office\u2026\r\nEvelyn smug: I have some {i}{color=#FF0099}business{/color}{/i}
-      I want to discuss with you.\r\nEvelyn \"offscreen right\":\r\n"
+      I want to discuss with you.\r\nEvelyn hide:\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -21479,7 +21485,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Evelyn hide:\nBlank: I wait around Evelyn\u2019s assistants desk
+    stringVal: "Evelyn hide:\nBlank: I wait around Evelyn\u2019s assistant's desk
       for Evelyn to get out of her meeting.\r\nIt seemed really important so I hope
       I got the order right\u2026\r\nIt doesn\u2019t take too long before Evelyn
       emerges.\r\nBlank: She looks tired, but happy.\r\nEvelyn happy Middle: Milo!
@@ -21545,7 +21551,7 @@ MonoBehaviour:
     stringVal: "Blank: I grab the files, take them out of the folders and place them
       in order. \r\nI then head off to the meeting room.\r\nWhen I make it to the
       door of the meeting room, I steel myself and politely knock.\r\nEvelyn answers
-      the door\r\nEvelyn happy Middle: Thank you so much!\r\nJust wait around a bit
+      the door.\nEvelyn happy Middle: Thank you so much!\r\nJust wait around a bit
       and I will meet with you after this is done.\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -21635,14 +21641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 402
   indentLevel: 0
-  storyText: "Milo: I\u2019m just glad I could help!\nEvelyn hide:\nBlank: I wait
-    around Evelyn\u2019s assistants desk for Evelyn to get out of her meeting.\r\nIt
-    seemed really important so I hope I got the order right\u2026\r\nIt doesn\u2019t
-    take too long before Evelyn emerges.\r\nBlank: She looks worn out and a bit frustrated.
-    \r\nEvelyn annoyed Middle: Well that couldn\u2019t have gone any worse!\r\nThe
-    files you gave me were totally wrong!\r\nThe vendors totally laughed at my face.\r\nI\u2019m
-    sorry, but I don\u2019t think our whole mentorship is working out.\r\nI\u2019m
-    going to have to ask you to leave.\r\n\n"
+  storyText: "Milo: I\u2019m just glad I could help!"
   description: 
   character: {fileID: 1115983012}
   portrait: {fileID: 21300000, guid: 467a2f6fe5a49aa4ca22af7f2c6cc8df, type: 3}
@@ -21701,8 +21700,8 @@ MonoBehaviour:
     stringVal: "Blank: I grab the files, take them out of the folders and place them
       in order. \r\nI then head off to the meeting room.\r\nWhen I make it to the
       door of the meeting room, I steel myself and politely knock.\r\nEvelyn answers
-      the door\r\nEvelyn happy Middle: Thank you so much!\r\nJust wait around a bit
-      and I will meet with you after this is done.\r\n"
+      the door\r.\nEvelyn happy Middle: Thank you so much!\r\nJust wait around a
+      bit and I will meet with you after this is done.\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -22182,7 +22181,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1774.4739
     y: -885.02124
-    width: 196.15384
+    width: 203.19148
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22368,7 +22367,7 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: 'Milo: {i}Because all the files are unlabelled it would be impossible
-      to figure out which ones Evelyn needs without help {/i}
+      to figure out which ones Evelyn needs without help. {/i}
 
       Phone: {i}{color=#FF0099}I
       am at the desk now, which files do you need{/color}{/i}
@@ -22741,7 +22740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 522
   indentLevel: 0
-  storyText: "I send Evelyn a truly long text full of excuses, hopefully she won\u2019t
+  storyText: "I send Evelyn a truly long text full of excuses. Hopefully she won\u2019t
     be too mad."
   description: 
   character: {fileID: 1022673832}
@@ -22792,7 +22791,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 755.76117
     y: -66.14696
-    width: 154.3956
+    width: 158.51064
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22995,7 +22994,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1176.5967
     y: -58.837467
-    width: 208.24176
+    width: 215.95744
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23245,7 +23244,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1011.3007
     y: -125.90771
-    width: 148.9011
+    width: 154.25531
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23362,7 +23361,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1105.2091
     y: -267.6156
-    width: 170.87912
+    width: 177.65958
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23414,7 +23413,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 940.6185
     y: -272.66104
-    width: 163.18681
+    width: 168.08511
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23468,7 +23467,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 327.35706
     y: 17.08346
-    width: 153.29669
+    width: 157.44681
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23671,7 +23670,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 582.44434
     y: -2.7297401
-    width: 207.14285
+    width: 214.89362
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23801,7 +23800,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 609.11847
     y: -170.95206
-    width: 147.80219
+    width: 153.1915
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23859,7 +23858,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 761.3458
     y: -274.20654
-    width: 155.4945
+    width: 160.6383
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24063,7 +24062,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 534.9367
     y: -268.3883
-    width: 162.0879
+    width: 167.02127
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24651,7 +24650,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1754.5781
     y: -369.3449
-    width: 231.31868
+    width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25133,7 +25132,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1761.2909
     y: -420.10583
-    width: 223.62637
+    width: 230.85106
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25199,7 +25198,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1449.9935
     y: -580.6461
-    width: 185.16483
+    width: 194.68085
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25990,7 +25989,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1778.1702
     y: -833.5785
-    width: 200.54945
+    width: 209.57446
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26140,7 +26139,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 5
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &1325397407
 MonoBehaviour:
@@ -28047,7 +28046,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Chris happy Middle Clear: Here there, partner! Right on time, I see.\r\nBlank:
+    stringVal: "Chris happy Middle Clear: Hey there, partner! Right on time, I see.\r\nBlank:
       I watch as Chris turns and squints at the sun, before turning back to me.\r\nChris
       happy: Yup! 4:30 on the dot.\r"
   clearPrevious:
@@ -29422,7 +29421,7 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Chris neutral: That said, I\u2019ll only introduce \u2018em once
-      so pay attention! It\u2019ll be on the test\r\nOne more time! Pay attention,
+      so pay attention! It\u2019ll be on the test.\nOne more time! Pay attention,
       this\u2019ll be on the test! \r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -29484,7 +29483,7 @@ MonoBehaviour:
       the mass of gentle mooing giants together.\r\nChris happy Middle clear: These
       girls are like my family. They\u2019ve been with me\u2026 since they were all
       swaddled babes, I\u2019ve\u2026Well\u2026 I\u2019ve never brought someone home
-      to meet them before.\r\nBlank: He laughs warmly\r\nChris happy: Well, now that
+      to meet them before.\r\nBlank: He laughs warmly.\nChris happy: Well, now that
       you\u2019re here, I might as well introduce you to my girls.\r\nBlank: Chris
       winked at me roguishly and I felt my heart flutter in my chest. "
   clearPrevious:
@@ -29863,7 +29862,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Blank: Seeing the raw enthusiasm, I couldn\u2019t help feeling a
       little charmed!\r\nChris: I\u2019ve been so excited for you to meet the girls!
-      I hope you aint too nervous, they may spit but they don\u2019t bite!\nBlank:
+      I hope you ain't too nervous; they may spit but they don\u2019t bite!\nBlank:
       Chris chuckles to himself."
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -29920,11 +29919,11 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Chris happy Middle clear: well,\r\nBlank: Chris is gasping to catch
-      his breath\r\nChris happy left: The old Russell here...\nRussell neutral right:
-      Neigh!\nBlank: He pats Russell\u2019s heaving and sweat strewn flank.\r\nChris:
+    stringVal: "Chris happy Middle clear: Well,\r\nBlank: Chris is gasping to catch
+      his breath.\nChris happy left: The old Russell here...\nRussell neutral right:
+      Neigh!\nBlank: He pats Russell\u2019s heaving and sweat-strewn flank.\r\nChris:
       Was just so excited to see you, we decided to make it a competition to see
-      who got to ya first!\r\nBut Hey! I\u2019m so glad you could make it!\r\n"
+      who got to ya first!\r\nBut hey! I\u2019m so glad you could make it!\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -30102,7 +30101,7 @@ MonoBehaviour:
     stringVal: "Blank: I felt a warm rush at the intimacy of the close contact and
       secretly promised myself to never EVER reveal Chris\u2019s secret.\r\nThen,
       all of a sudden, Chris pulls back and and looks at me, brows creased in a serious
-      expression.\r\nChris neutral: So, who is who?\r\nChris hide:\n"
+      expression.\r\nChris neutral: So, who is who?\r\nChris hide:\nCoca hide:"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -31797,7 +31796,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1300.6248
     y: -262.3182
-    width: 199.45055
+    width: 205.31915
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -33350,7 +33349,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1260.8203
     y: -404.02557
-    width: 110.43956
+    width: 111.70213
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -34543,9 +34542,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Russell neutral: *Winnies*\r\nI look up in awe to see a man on horseback
-      in the middle of an urban street.\r\nMilo:{i}No way\u2026.{/i}\r\nBlank: Sure
-      enough I was face to \u2026 well uh\u2026 horse\u2026 with the other individual
+    stringVal: "Russell neutral: *Winnies*\r\nBlank: I look up in awe to see a man
+      on horseback in the middle of an urban street.\r\nMilo:{i}No way\u2026.{/i}\r\nBlank:
+      Sure enough I was face to \u2026 well uh\u2026 horse\u2026 with the other individual
       included in the cupid file. \r\nMilo: {i}Chris Dodge?!\r{/i}\r\nMilo: {i}They
       really weren\u2019t joking about this guy being a real cowboy. {/i}\r\nRussell
       left:\nChris neutral right: Looks like you got yourself into quite the pickle.
@@ -35301,7 +35300,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 129261583}
   _visible:
     booleanRef: {fileID: 0}
-    booleanVal: 0
+    booleanVal: 1
   affectChildren: 1
   visibleOLD: 0
 --- !u!114 &1325397681
@@ -35770,8 +35769,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 950
   indentLevel: 0
-  storyText: 'Still, he never looses the heartstoppingly handsome charm I first noticed
-    over the erotic steam of a bloomin onion. '
+  storyText: 'Still, he never loses the heartstoppingly handsome charm I first noticed
+    over the erotic steam of a bloomin'' onion. '
   description: 
   character: {fileID: 1022673832}
   portrait: {fileID: 0}
@@ -35799,7 +35798,7 @@ MonoBehaviour:
   itemId: 949
   indentLevel: 0
   storyText: 'Chris and I lovingly shampoo the cows with baby hair care products
-    well into old age. We grow old together as absolutely ripped cow daddy Dilfs
+    well into old age. We grow old together as absolutely ripped cow daddy DILFs,
     with our love growing stronger with each day.
 
 '
@@ -35973,11 +35972,11 @@ MonoBehaviour:
       I kiss away the tears of joy that are streaming down his face.
 
       He hoists
-      me up onto Russell in my new ranchin boots and everything in my life slides
+      me up onto Russell in my new ranchin'' boots and everything in my life slides
       into place.
 
       Chris and I ride off into the sunset, sending my resignation
-      letter to my boss in an expedited, custom envelope, rich person mail!
+      letter to my boss in an expedited, custom, rich person envelope.
 
       Chris
       hide "offscreen left":
@@ -36245,7 +36244,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Blank: He slips one boot onto my foot, and\u2026 it was a perfect
       fit!!\r\nMilo: Oh Chris!! How did you know??\r\nChris blushing: Oh\u2026 well\u2026.\r\nBlank:
-      He flushed, pulling down his hat over his face \r\nChris: I remembered your
+      He flushed, pulling down his hat over his face. \r\nChris: I remembered your
       size\u2026 from\u2026 the first time I gave you a boost up onto Russell.\n"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -36396,15 +36395,15 @@ MonoBehaviour:
       booked it! If he wasn\u2019t already a cowboy bajillionaire, he would have
       made an EXCELLENT delivery boy.\r\nChris blushing: well\u2026. I think.. the
       girls might be getting a bit\u2026 lonely with\u2026 just me\r\nWhat I mean
-      to say is\u2026.I think that this ranch is\u2026 more than big enough for 2
+      to say is\u2026.I think that this ranch is\u2026 more than big enough for two
       hands\u2026.\r\nOh golly gosh darn it!! What I really mean is\u2026 I don\u2019t
-      want to be just a tbajilionare-oil-tycoon-cowboy anymore!! \r\nChris blushing:
-      I  want to be {b}YOUR{/b} bajilionare-oil tycoon cowboy\r\nWon\u2019t you\u2026
-      give me a chance Milo? How would you feel about making numero uno into a dynamic
-      duo.\r\nBlank: With that\u2026 he whips out the package from behind his back
-      and clumsily opens it, gazing meaningfully into my eyes as if he\u2019d found
-      a solution for non-renewable fossil fuel problem somewhere in their hopeful
-      depths. \r\nInside the box was\u2026. A pair of cowboy boots!! They were beautiful!!!\r\n"
+      want to be just a bajillionare-cowboy anymore!! \r\nChris blushing: I want
+      to be {b}YOUR{/b} bajillionare-oil tycoon cowboy\r!\nWon\u2019t you\u2026 give
+      me a chance, Milo? How would you feel about making numero uno into a dynamic
+      duo?\r\nBlank: With that\u2026 he whips out the package from behind his back
+      and clumsily opens it, gazing meaningfully into my eyes as if he\u2019s found
+      the ultimate method for sustainable cow herding.\nInside the box was\u2026.
+      A pair of cowboy boots!! They were beautiful!!!\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -36441,8 +36440,8 @@ MonoBehaviour:
       me again, and I feel comforted by the thought I wont be abandoned in the middle
       of a field with no one but cows to ask for directions home.\r\nThe sound of
       ragged breathing and something heavy being swept behind his back announce Chris\u2019s
-      presence, I can hear the sound of his cowboy boots on grass very VERY close
-      to you and then there is silence for a moment.\r\nChris:\u2026 you can...gasp...open
+      presence. I can hear the sound of his cowboy boots on grass very close to me
+      and then there is silence for a moment.\r\nChris:\u2026 you can...gasp...open
       your eyes now...wheeze...\n"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -36514,8 +36513,8 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Chris blushing: Well\u2026 I had been meaning to save these for later
       but\u2026.\r\nBlank: A smile twitches up the side of Chris\u2019s lips, bringing
-      a spark of mischief to his eyes.\r\nChris: You gotta close them eyes real tight,
-      no peeking now! I can\u2019t well do it with you watching like *that*\nBlank:
+      a spark of mischief to his eyes.\r\nChris: You gotta close them eyes real tight
+      - no peeking now! I can\u2019t well do it with you watching like *that*.\nBlank:
       I cover my eyes with my hands to reassure Chris."
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -36544,7 +36543,7 @@ MonoBehaviour:
   itemId: 932
   indentLevel: 0
   storyText: "{i}Ugh! I was too busy thinking about the assless chaps to ask him
-    the obvious question, how does this apply to me!!?\r {/i}\n"
+    the obvious question - how does this apply to me!!?\r {/i}\n"
   description: 
   character: {fileID: 1115983012}
   portrait: {fileID: 21300000, guid: 124d776523d2e0e4586b62a331607ff4, type: 3}
@@ -36576,18 +36575,18 @@ MonoBehaviour:
     stringVal: "Chris neutral: With how all that sounds\u2026 you might be due for
       a bit of a carrier change.\r\nMilo: Where would I even go? What would I do?\r\nChris
       neutral: I might have to answer that with\u2026 a bit of a story, so get comfy
-      partner. Once upon a time, there was a man who stood on the very top of the
-      world, you might even call him, a CEO bajilionare\u2026 I\u2026 I mean he had
-      everything\u2026 and I mean EVERYTHING. Gold plated toilet seats\u2026 a marble
-      picket fence\u2026 everything he could have ever asked for or imagined. But\u2026.
-      He was all alone\u2026. He felt like he had nobody.\r\nSo\u2026 I\u2026 I mean
-      *he* had to get away from it all\u2026 so\u2026 I built this place, found Russell
-      when he was just a colt in a box on the side of the road.\nChris: So, I took
-      him home with me, found these sweet girls from shelters all around the country\u2026
-      and built this place For US to be a real family together.\r\nI\u2019ve never\u2026.
-      I\u2019ve never been happier, I\u2019ve never been so\u2026 fulfilled, they
-      complete me, you know?\r\nChris happy: I went from business suits to assless
-      chaps and it really did help me, I needed a change of pace\u2026 and I think
+      partner. \nOnce upon a time, there was a man who stood on the very top of the
+      world, you might even call him, a CEO bajillionare\u2026 \nI\u2026 I mean he
+      had everything\u2026 and I mean EVERYTHING. \nGold plated toilet seats\u2026
+      a marble picket fence\u2026 everything he could have ever asked for or imagined.
+      \nBut\u2026. He was all alone\u2026. He felt like he had nobody.\r\nSo\u2026
+      I\u2026 I mean *he* had to get away from it all\u2026 so\u2026 I built this
+      place, found Russell when he was just a colt in a box on the side of the road.\nChris:
+      So, I took him home with me, found these sweet girls from shelters all around
+      the country\u2026 and built this place for us to be a real family together.\r\nI\u2019ve
+      never\u2026. I\u2019ve never been happier, I\u2019ve never been so\u2026 fulfilled,
+      they complete me, you know?\r\nChris happy: I went from business suits to assless
+      chaps and it really did help me. I needed a change of pace\u2026 and I think
       you do too!\r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -36649,10 +36648,10 @@ MonoBehaviour:
       Oh\u2026 it's\u2026nothing.\r\nBlank: Chris places a gentle hand on my shoulder,
       his warmth just barely penetrating the freezing sensation clawing at my throat.\r\nChris
       neutral: Milo, I might not always know the right thing to say\u2026 but people
-      have told me I\u2019m a great listener\r\nBlank: So I take a big breath\u2026
-      and just\u2026 tell him\r\nI tell him about my job\u2026 and he listens,\r\nI
+      have told me I\u2019m a great listener.\r\nBlank: So I take a big breath\u2026
+      and just\u2026 tell him\r.\nI tell him about my job\u2026 and he listens,\r\nI
       tell him about my worries about being fired\u2026 and he listens\u2026 \r\nI
-      tell him how afraid I am about never fulfilling your purpose and he listens.\r\nI
+      tell him how afraid I am about never fulfilling my purpose and he listens.\r\nI
       almost think I can see the corner of his lip tremble, but he blinks quickly
       and he still listens. \r\nAnd when I am all out of breath, I feel a bit embarrassed
       at myself over how all of my issues welled to the surface all at once in front
@@ -36857,8 +36856,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 922
   indentLevel: 0
-  storyText: "She smells amazing, like grass and sweetness\u2026 is that a hint of
-    a\u2026 baby powder??\r\nHow do you make them smell so nice?\r\n"
+  storyText: "She smells amazing, like grass and sweetness\u2026 is that a hint of\u2026
+    baby powder??\r\nHow do you make them smell so nice?\r\n"
   description: 
   character: {fileID: 1115983012}
   portrait: {fileID: 21300000, guid: 467a2f6fe5a49aa4ca22af7f2c6cc8df, type: 3}
@@ -36888,10 +36887,10 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Felony hide:\nChris blushing Middle clear: Since you\u2026 since
-      you remembered em all so good, You can\u2026\r\nBlank: Chris flushes and tucks
-      one stray lock of hair behind his ear\r\nChris blushing: you can pet them too\u2026
-      if you want...\r\nBlank: I lean close to Coca, tangling my fingers in her soft
-      fur as chews gently and lovingly on my hair. \r\n"
+      you remembered 'em all so good, You can\u2026\r\nBlank: Chris flushes and tucks
+      one stray lock of hair behind his ear\r.\nChris blushing: you can pet them
+      too\u2026 if you want...\r\nBlank: I lean close to Coca, tangling my fingers
+      in her soft fur as chews gently and lovingly on my hair. \r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -36995,7 +36994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 917
   indentLevel: 0
-  spriteRenderer: {fileID: 1914159090}
+  spriteRenderer: {fileID: 1880076621}
   _visible:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -37174,7 +37173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 910
   indentLevel: 0
-  spriteRenderer: {fileID: 1914159090}
+  spriteRenderer: {fileID: 1880076621}
   _visible:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -37564,7 +37563,7 @@ MonoBehaviour:
     stringVal: 'Blank: I can feel the tears prickle in my eyes as I sprint off in
       disgrace.
 
-      Chris "offscreen right":'
+      Chris hide "offscreen right":'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -39918,7 +39917,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1325397880
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -39928,9 +39927,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1084
+  itemId: 1391
   indentLevel: 0
-  spriteRenderer: {fileID: 1407380109}
+  spriteRenderer: {fileID: 932896614}
   _visible:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -43577,7 +43576,7 @@ MonoBehaviour:
       leans close enough for me to feel the tickle of his breath against my ear and
       whispers...\nChris blushing: Coca\u2019s the first cow I ever got, and just
       between us\u2026 she\u2019s my favorite, don\u2019t tell nobody.\r\nBlank:
-      I whisper back to Chris"
+      I whisper back to Chris."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -43627,7 +43626,7 @@ MonoBehaviour:
       eyes, all you can see is sweetness and pure intent, you would trust this cow
       over Bandit any day!\r\nVanilla hide \"offscreen right\":\nChris happy: And
       finally...\r\nThis here is Coca cause she\u2019s as nice as her namesake on
-      a cold winter\u2019s night \r"
+      a cold winter\u2019s night."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -43768,11 +43767,10 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "\nSparkles Sparkles right: Moo!\nBlank: I take a step back, Sparkles
+    stringVal: "Sparkles Sparkles right: Moo!\nBlank: I take a step back, Sparkles
       has muscles on her muscles on her muscles! She looks as if she could yeet me
       into the sun!!\r\nSparkles hide \"offscreen right\":\nChris happy: This pretty
-      girl\u2019s name is Bandit, by night she goes by the canola crook of the west
-      \r\n\n"
+      girl\u2019s name is Bandit. By night she goes by the canola crook of the West.\n\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -43836,21 +43834,32 @@ MonoBehaviour:
     booleanVal: 1
 --- !u!114 &1325398072
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325396973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1283
+  itemId: 1390
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 7da5d68086cec9c42bd2183692204ddf, type: 3}
-  volume: 1
-  waitUntilFinished: 0
+  storyText: Knowing that I've earned Evelyn's trust and respect means so much more
+    to me than anything else.
+  description: 
+  character: {fileID: 1022673832}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1325398073
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -43869,7 +43878,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Felony Felony right: Moo\r\nBlank: This cow seems\u2026 somehow smug,
       is that a thing?? Are cows smug??\r\nFelony hide \"offscreen right\":\nChris
-      neutral: This is Sigmund, she's a real good judge of character."
+      neutral: This is Sigmund. She's a real good judge of character."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -43901,35 +43910,24 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1325398075
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325396973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1280
+  itemId: 1389
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Felony Felony right: Moo\r\nBlank: This cow seems\u2026 somehow smug,
-      is that a thing?? Are cows smug??\r\nFelony hide \"offscreen right\":\nChris
-      neutral: This is Sigmund, she's a real good judge of character"
-  clearPrevious:
+  spriteRenderer: {fileID: 932896614}
+  _visible:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  affectChildren: 1
+  visibleOLD: 0
 --- !u!114 &1325398076
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -44067,7 +44065,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: 'Bandit hide:
 
-      Felony Middle: Moo!'
+      Felony Felony Middle: Moo!'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -44251,7 +44249,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: 'Sparkles hide:
 
-      Coca Coca: Mooooo!'
+      Coca Coca Middle: Mooooo!'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -44736,7 +44734,7 @@ MonoBehaviour:
   itemId: 1359
   indentLevel: 0
   duration: 1
-  targetAlpha: 0
+  targetAlpha: 1
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
@@ -45462,7 +45460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1366
   indentLevel: 0
-  storyText: 'Writers: Brianna Jackson, Susan, '
+  storyText: 'Writers: Brie, Suzie, Sarah Y.'
   description: 
   character: {fileID: 1022673832}
   portrait: {fileID: 0}
@@ -45489,7 +45487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1365
   indentLevel: 0
-  storyText: 'Character Artist: Jessica Pan'
+  storyText: 'Character Artist: Jess.'
   description: 
   character: {fileID: 1022673832}
   portrait: {fileID: 0}
@@ -45516,7 +45514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1364
   indentLevel: 0
-  storyText: 'Coders: Lana, Pandy Ma'
+  storyText: 'Coders: Lana and Pandy.'
   description: 
   character: {fileID: 1022673832}
   portrait: {fileID: 0}
@@ -45572,7 +45570,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 77.42158
     y: -892.6188
-    width: 89.56044
+    width: 91.489365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -45815,6 +45813,80 @@ MonoBehaviour:
     booleanVal: 0
   affectChildren: 1
   visibleOLD: 0
+--- !u!114 &1325398158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325396973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1388
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Evelyn hide:\nBlank: I wait around Evelyn\u2019s assistant's desk
+      for Evelyn to get out of her meeting.\r\nIt seemed really important so I hope
+      I got the order right\u2026\r\nIt doesn\u2019t take too long before Evelyn
+      emerges.\r\nBlank: She looks worn out and a bit frustrated. \r\nEvelyn annoyed
+      Middle: Well that couldn\u2019t have gone any worse!\r\nThe files you gave
+      me were totally wrong!\r\nThe vendors totally laughed at my face.\r\nI\u2019m
+      sorry, but I don\u2019t think our whole mentorship is working out.\r\nI\u2019m
+      going to have to ask you to leave.\r\n\n"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1325398159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325396973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1393
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
+--- !u!114 &1325398160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325396973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1392
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 5
+  durationOLD: 0
 --- !u!1 &1334546009
 GameObject:
   m_ObjectHideFlags: 0
