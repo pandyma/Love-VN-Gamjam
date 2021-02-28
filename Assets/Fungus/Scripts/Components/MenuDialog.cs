@@ -49,7 +49,9 @@ namespace Fungus
         {
             gameObject.SetActive(state);
         }
-        
+
+
+
         /// <summary>
         /// Returns a menu dialog by searching for one in the scene or creating one if none exists.
         /// </summary>
