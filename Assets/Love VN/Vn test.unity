@@ -6225,7 +6225,6 @@ GameObject:
   - component: {fileID: 1325397408}
   - component: {fileID: 1325397053}
   - component: {fileID: 1325397051}
-  - component: {fileID: 1325397414}
   - component: {fileID: 1325397413}
   - component: {fileID: 1325397412}
   - component: {fileID: 1325397411}
@@ -7016,6 +7015,9 @@ GameObject:
   - component: {fileID: 1325398178}
   - component: {fileID: 1325398177}
   - component: {fileID: 1325397534}
+  - component: {fileID: 1325397414}
+  - component: {fileID: 1325398181}
+  - component: {fileID: 1325398180}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -7350,7 +7352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1273.6589, y: 1461.7861}
+  scrollPos: {x: -1031.193, y: 1297.4025}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 424
@@ -7362,7 +7364,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1325397388}
+  - {fileID: 1325397592}
   selectedCommands: []
   variables:
   - {fileID: 1325397135}
@@ -8291,7 +8293,7 @@ MonoBehaviour:
   itemId: 38
   blockName: Titlescreen
   description: 
-  eventHandler: {fileID: 1325397414}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1325398110}
   - {fileID: 1325397406}
@@ -10191,7 +10193,7 @@ MonoBehaviour:
   itemId: 163
   blockName: Chris Final Date
   description: Chooses whether Chris likes you or not
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1325397414}
   commandList:
   - {fileID: 1325397598}
   - {fileID: 1325397792}
@@ -10266,6 +10268,8 @@ MonoBehaviour:
   - {fileID: 1325397552}
   - {fileID: 1325398062}
   - {fileID: 1325398063}
+  - {fileID: 1325398181}
+  - {fileID: 1325398180}
   - {fileID: 1325397939}
   - {fileID: 1325398061}
   - {fileID: 1325397551}
@@ -26491,7 +26495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1325397011}
+  parentBlock: {fileID: 1325397050}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
 --- !u!114 &1325397415
@@ -29775,7 +29779,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1325397534
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -36632,7 +36636,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1325397724
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -42949,7 +42953,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1325398024
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -43789,11 +43793,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Vanilla Vanilla right: Mooooo\nBlank: Looking into Vanilla\u2019s
-      eyes, all you can see is sweetness and pure intent, you would trust this cow
-      over Bandit any day!\r\nVanilla hide \"offscreen right\":\nChris happy: And
-      finally...\r\nThis here is Cacao cause she\u2019s as nice as her namesake on
-      a cold winter\u2019s night."
+    stringVal: 'Vanilla Vanilla right: Mooooo'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -44354,7 +44354,7 @@ MonoBehaviour:
   indentLevel: 2
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Coca hide:
+    stringVal: 'Cacao hide:
 
       Caroline Caroline Middle: Moo! Moo! Moo!'
   clearPrevious:
@@ -47598,7 +47598,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1325398172
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -47618,7 +47618,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1325398173
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -47638,7 +47638,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1325398174
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -47658,7 +47658,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1325398175
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -47708,7 +47708,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1325398177
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -47739,7 +47739,7 @@ MonoBehaviour:
     booleanVal: 1
 --- !u!114 &1325398178
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -47756,7 +47756,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1325398179
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -47786,6 +47786,65 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &1325398180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325396973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1417
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Vanilla hide \"offscreen right\":\nChris happy: And finally...\r\nThis
+      here is Cacao cause she\u2019s as nice as her namesake on a cold winter\u2019s
+      night."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1325398181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325396973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1416
+  indentLevel: 0
+  storyText: "{i}Looking into Vanilla\u2019s eyes, all I can see is sweetness and
+    pure intent, I would trust this cow over Bandit any day!\r{/i}"
+  description: 
+  character: {fileID: 1115983012}
+  portrait: {fileID: 21300000, guid: 467a2f6fe5a49aa4ca22af7f2c6cc8df, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1334546009
 GameObject:
   m_ObjectHideFlags: 0
